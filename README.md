@@ -1,3 +1,3 @@
-# q-bit
+# q-bits
 
 More to come later...
