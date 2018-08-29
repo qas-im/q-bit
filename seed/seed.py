@@ -15,7 +15,7 @@ class seed(object)
 		self.x = x
 		self.y = y
 
-	def controls(self):
+	def update(self):
 		pass
 
 	def collision_check(self, collider):
