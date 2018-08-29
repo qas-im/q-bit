@@ -76,14 +76,15 @@ class Seed(object):
 		"""
 		function that controls movement/actions of an object
 		used in conjunction with key_xxx_pressed functions
+		ISSUE: only first case of key_is/was_pressed works
 		"""
 		if self.key_is_pressed("w"):
 			print("going up")
-		if self.key_is_pressed("a"):
+		elif self.key_is_pressed("a"):
 			print("going left")
-		if self.key_is_pressed("s"):
+		elif self.key_is_pressed("s"):
 			print("going down")
-		if self.key_is_pressed("d"):
+		elif self.key_is_pressed("d"):
 			print("going right")
 
 
