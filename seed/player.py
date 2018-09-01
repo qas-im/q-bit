@@ -8,6 +8,7 @@ class Player(Seed):
 		initialize unique attributes of Player
 		"""
 		super().__init__(x,y)
+		self.falling = True
 
 	def update(self):
 		"""
